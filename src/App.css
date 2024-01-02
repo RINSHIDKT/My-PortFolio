@@ -227,6 +227,13 @@ body{
   .photo img{
     width: 100%;
   }
+
+  @media(min-width:300px) and (max-width:575.98px){
+    .name-banner-main{
+      display: inline;
+      gap: 10px;
+    }
+  }
 /* //////////////////NAME-BANNER-END//////////////// */
 /* .jj{
   width: 100%;
