@@ -128,12 +128,51 @@ body{
     padding-left: 10%;
     padding-top: 20%;
   }
-  .content h1{
+  .content .name{
     color: #d6d6d6;
     font-family: 'Josefin Sans', sans-serif;
+   
+  }
+  .sentence {
+    color: #DAFDBA;
+    font-size: 3em;
+    position: relative;
+  }
+
+
+.sentence::after {
+content: '';
+position: absolute;
+right: -20px;
+bottom: 6px;
+  width: 14px;
+  height: 2px;
+background-color: #DAFDBA;
+animation: blink 0.5s linear infinite;
+}
+
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+  
+  .content p{
+    color: #d6d6d6;
+    font-family: 'Josefin Sans', sans-serif;
+    /* padding-left: ; */
+    font-size: 26px;
+    margin-bottom: 0 !important;
   }
   .content span{
     color: #f9977b;
     border-bottom: 3px solid #f9977b;
+  }
+  .text-type{
+    color: rgb(216, 206, 206);
   }
 /* //////////////////NAME-BANNER-END//////////////// */

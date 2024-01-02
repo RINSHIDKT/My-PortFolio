@@ -1,5 +1,6 @@
 import './App.css'
 import { HiBars3CenterLeft } from "react-icons/hi2";
+import { typingTextEffect } from './app.js';
 
 function App() {
  
@@ -50,7 +51,9 @@ function App() {
       <div className="name-banner-main">
         <div className="name-banner-left">
           <div className="content">
-            <h1 data-aos="fade-bottom">MOHAMMED <span>SHAMIL</span></h1>
+            <p>Hi I am..</p>
+            <h1 data-aos="fade-bottom" className='name'>MOHAMMED <span>SHAMIL</span></h1>
+            <div className="sentence"></div>
           </div>
         </div>
         <div className="name-banner-right"></div>
@@ -58,6 +61,9 @@ function App() {
    {/* /////////////NAME-BANNER-END//////////////// */}
       
   </div>
+
+  
+
     </>
   )
 }
