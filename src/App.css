@@ -87,7 +87,7 @@ body{
     bottom:-3px;
     z-index:0;
     position:absolute;
-    background:white;
+    background:#ffe5c1;
     transition: all 0.3s ease-in-out;
   }
 }
@@ -121,7 +121,14 @@ body{
       /* background-color: red; */
       height: 300px;
   }
+  .content{
+    background-color: blue;
+    padding-left: 10%;
+  }
   .content h1{
-    position: absolute;
+    color: #d6d6d6;
+  }
+  .content span{
+    color: #f9977b;
   }
 /* //////////////////NAME-BANNER-END//////////////// */
