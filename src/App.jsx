@@ -1,12 +1,13 @@
 import './App.css'
+import { HiBars3CenterLeft } from "react-icons/hi2";
 
 function App() {
  
 
   return (
     <>
-     <button className="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
-  Toggle static offcanvas
+     <button className="button_nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
+     <HiBars3CenterLeft className='Navbar_bar' />
 </button>
 
 <div className="offcanvas offcanvas-start" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop" aria-labelledby="staticBackdropLabel">
