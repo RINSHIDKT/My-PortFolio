@@ -48,7 +48,11 @@ function App() {
 
   {/* /////////////NAME-BANNER//////////////// */}
       <div className="name-banner-main">
-        <div className="name-banner-left"></div>
+        <div className="name-banner-left">
+          <div className="content">
+            <h1>MOHAMMED SHAMIL</h1>
+          </div>
+        </div>
         <div className="name-banner-right"></div>
       </div>
    {/* /////////////NAME-BANNER-END//////////////// */}

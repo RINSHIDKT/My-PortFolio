@@ -121,4 +121,7 @@ body{
       /* background-color: red; */
       height: 300px;
   }
+  .content h1{
+    position: absolute;
+  }
 /* //////////////////NAME-BANNER-END//////////////// */
