@@ -45,6 +45,11 @@ body{
   .ofcanvas-main{
     display: inline;
   }
+  .Navbar_bar{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 50px !important;
+  }
 }
 
 /* ///////////////////OFFCANVAS-END////////////////// */
