@@ -114,8 +114,11 @@ body{
 /* //////////////////NAME-BANNER//////////////// */
   .name-banner-main{
     display: flex;
+    gap: 10px;
   }
-  .name-banner-left{
-    
+  .name-banner-left,.name-banner-right{
+      width: 50%;
+      /* background-color: red; */
+      height: 300px;
   }
 /* //////////////////NAME-BANNER-END//////////////// */
