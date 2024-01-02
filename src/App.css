@@ -132,7 +132,7 @@ body{
       height: 300px;
   }
   .content{
-    background-color: blue;
+    /* background-color: blue; */
     padding-left: 10%;
     padding-top: 22%;
   }
@@ -250,9 +250,13 @@ body{
       width: 200px;
       height: 200px;
     }
+    .name-banner-left,.name-banner-right{
+      width: 100%;
+      text-align: center;
+  }
     .content{
       padding-left: 0 !important;
-      background-color: red;
+      /* background-color: red; */
       width: 100% !important;
       padding-top: 0;
     }
@@ -261,6 +265,12 @@ body{
       font-size: 30px;
       font-family: 'Josefin Sans', sans-serif;
      
+    }
+    .typewriter{
+      /* background-color: red; */
+      width: 300px;
+      text-align: center;
+      margin: auto;
     }
     
     
