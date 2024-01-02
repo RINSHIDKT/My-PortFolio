@@ -126,9 +126,11 @@ body{
   .content{
     background-color: blue;
     padding-left: 10%;
+    padding-top: 20%;
   }
   .content h1{
     color: #d6d6d6;
+    font-family: 'Josefin Sans', sans-serif;
   }
   .content span{
     color: #f9977b;
