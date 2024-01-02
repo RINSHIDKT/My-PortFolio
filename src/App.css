@@ -119,6 +119,13 @@ body{
     display: flex;
     gap: 10px;
   }
+  .name-banner-left {
+    order: 1; /* Default order for larger screens */
+  }
+  
+  .name-banner-right {
+    order: 2; /* Photo first on smaller screens */
+  }
   .name-banner-left,.name-banner-right{
       width: 50%;
       /* background-color: red; */
@@ -230,9 +237,33 @@ body{
 
   @media(min-width:300px) and (max-width:575.98px){
     .name-banner-main{
-      display: inline;
-      gap: 10px;
+      flex-wrap: wrap;
+      justify-content: center;
     }
+    .name-banner-right {
+      order: 1 !important; /* Photo first on smaller screens */
+    } 
+    .name-banner-left {
+      order: 2 !important; /* Default order for larger screens */
+    }
+    .photo{
+      width: 200px;
+      height: 200px;
+    }
+    .content{
+      padding-left: 0 !important;
+      /* background-color: red; */
+      padding-top: 22%;
+    }
+    .content .name{
+      color: #d6d6d6;
+      font-size: 30px;
+      font-family: 'Josefin Sans', sans-serif;
+     
+    }
+    
+    
+   
   }
 /* //////////////////NAME-BANNER-END//////////////// */
 /* .jj{
