@@ -50,7 +50,7 @@ function App() {
       <div className="name-banner-main">
         <div className="name-banner-left">
           <div className="content">
-            <h1>MOHAMMED <span>SHAMIL</span></h1>
+            <h1 data-aos="fade-bottom">MOHAMMED <span>SHAMIL</span></h1>
           </div>
         </div>
         <div className="name-banner-right"></div>

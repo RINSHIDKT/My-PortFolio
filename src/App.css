@@ -124,7 +124,7 @@ body{
       height: 300px;
   }
   .content{
-    background-color: blue;
+    /* background-color: blue; */
     padding-left: 10%;
     padding-top: 20%;
   }
@@ -134,5 +134,6 @@ body{
   }
   .content span{
     color: #f9977b;
+    border-bottom: 3px solid #f9977b;
   }
 /* //////////////////NAME-BANNER-END//////////////// */
