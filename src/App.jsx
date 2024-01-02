@@ -1,14 +1,44 @@
+import { useEffect } from 'react';
 import './App.css'
 import { HiBars3CenterLeft } from "react-icons/hi2";
-import { typingTextEffect } from './app.js';
 
 function App() {
- 
+  useEffect(() => {
+    const cursor = document.querySelector('.cursor');
+    const mouse = {
+      x: 0,
+      y: 0,
+    };
+    const cursorPosition = {
+      x: 0,
+      y: 0,
+    };
+
+    const tick = () => {
+      cursorPosition.x += (mouse.x - cursorPosition.x) * 0.15;
+      cursorPosition.y += (mouse.y - cursorPosition.y) * 0.15;
+      cursor.style.transform = `translate(${cursorPosition.x}px, ${cursorPosition.y}px)`;
+      window.requestAnimationFrame(tick);
+    };
+
+    window.addEventListener('mousemove', (e) => {
+      mouse.x = e.x;
+      mouse.y = e.y;
+    });
+
+    tick();
+  }, []);
+  
 
   return (
     <>
   <div className="nav-banner-section">
   <div className="navigation-bar">
+    {/* ///////////curson////////////// */}
+  <div className="cursor">
+  <div className="cursor-circle"></div>
+</div>
+ {/* ///////////curson////////////// */}
       {/* ////////////////////OFCANVAS///////////////// */}
 
       <div className="ofcanvas-main"> <button className="button_nav" type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop" aria-controls="staticBackdrop">
@@ -46,17 +76,20 @@ function App() {
 </div>
 {/* /////////////////NAVBAR-END////////////// */}
   </div>
+  
 
   {/* /////////////NAME-BANNER//////////////// */}
       <div className="name-banner-main">
         <div className="name-banner-left">
           <div className="content">
-            <p>Hi I am..</p>
-            <h1 data-aos="fade-bottom" className='name'>MOHAMMED <span>SHAMIL</span></h1>
-            <div className="sentence"></div>
+            <p className='hi-am'>Hi I am..</p>
+            <h1  data-aos="fade-up" className='name'>MOHAMMED <span>SHAMIL</span></h1>
+            <div className="typewriter"><p className='typing'>I am Web a Developer</p></div>
           </div>
         </div>
-        <div className="name-banner-right"></div>
+        <div className="name-banner-right">
+          <div className="photo"><img src="../public/IMG_6986-removebg.png" alt="" /></div>
+        </div>
       </div>
    {/* /////////////NAME-BANNER-END//////////////// */}
       

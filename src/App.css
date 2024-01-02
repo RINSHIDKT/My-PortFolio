@@ -5,6 +5,7 @@
 body{
   font-family: 'Montserrat', sans-serif; 
 }
+
 .nav-banner-section{
   background:url('../public/dark-geometric-background-with-copy-space.jpg');
   width: 100%;
@@ -126,42 +127,80 @@ body{
   .content{
     /* background-color: blue; */
     padding-left: 10%;
-    padding-top: 20%;
+    padding-top: 22%;
   }
   .content .name{
     color: #d6d6d6;
+    font-size: 60px;
     font-family: 'Josefin Sans', sans-serif;
    
   }
-  .sentence {
-    color: #DAFDBA;
-    font-size: 3em;
-    position: relative;
+  /* /////////////cursor/////////////// */
+  .cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 69px;
+    width: 69px;
+    pointer-events: none;
   }
-
-
-.sentence::after {
-content: '';
-position: absolute;
-right: -20px;
-bottom: 6px;
-  width: 14px;
-  height: 2px;
-background-color: #DAFDBA;
-animation: blink 0.5s linear infinite;
-}
-
-  @keyframes blink {
-    0% {
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-    }
-  }
-
   
-  .content p{
+  /* .cursor-circle {
+    border: 1px solid #fff;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    position: absolute;
+    top: -20px;
+    left: -20px;
+  } */
+  
+  .cursor-circle {
+    --cursor-size: 40px;
+    border: 2px solid #f9977b;
+    width: var(--cursor-size);
+    height: var(--cursor-size);
+    border-radius: 100%;
+    position: absolute;
+    top: calc(-1 * var(--cursor-size) / 2);
+    left: calc(-1 * var(--cursor-size) / 2);
+  }
+    /* /////////////cursor-end/////////////// */
+  /* /////////typing///////////// */
+  
+  /* DEMO-SPECIFIC STYLES */
+  .typewriter{
+    /* background-color: red; */
+    width: 42%;
+  }
+  .typing {
+    font-size: 20px;
+    font-weight: 800;
+    color: #fff;
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    /* margin: 0 auto;  */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blink-caret .5s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange }
+  }
+   /* /////////typing///////////// */
+
+  .content .hi-am{
     color: #d6d6d6;
     font-family: 'Josefin Sans', sans-serif;
     /* padding-left: ; */
@@ -175,4 +214,21 @@ animation: blink 0.5s linear infinite;
   .text-type{
     color: rgb(216, 206, 206);
   }
+  .photo{
+    width: 300px;
+    height: 300px;
+    background-color: #ffe5c1;
+    border: 6px solid #f9977b;
+    margin: auto;
+    margin-top: 14%;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  .photo img{
+    width: 100%;
+  }
 /* //////////////////NAME-BANNER-END//////////////// */
+/* .jj{
+  width: 100%;
+  height: 700px;
+} */
