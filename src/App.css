@@ -267,13 +267,16 @@ body{
     }
     .content .name{
       color: #d6d6d6;
-      font-size: 30px;
+      font-size: 26px;
       font-family: 'Josefin Sans', sans-serif;
      
     }
+    .typing{
+      font-size: 13px;
+    }
     .typewriter{
       /* background-color: red; */
-      width: 300px;
+      width: 180px;
       text-align: center;
       margin: auto;
     }
@@ -296,10 +299,12 @@ body{
       order: 2 !important; /* Default order for larger screens */
     }
     .photo{
+      margin-top: 8% !important;
       width: 200px;
       height: 200px;
     }
     .name-banner-left,.name-banner-right{
+      height: 300px;
       width: 100%;
       text-align: center;
   }
