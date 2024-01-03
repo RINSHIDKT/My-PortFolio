@@ -15,6 +15,12 @@ body{
 }
 
 /* ///////////////////OFFCANVAS////////////////// */
+.offcanvas-body,.offcanvas-header{
+  background: linear-gradient(to right, #19242C, #1e2a32)
+}
+.btn-close{
+  color: white !important;
+}
 .ofcanvas-main{
   display: none;
 }
@@ -34,7 +40,7 @@ body{
 }
 .navlinks{
   text-decoration: none;
-  color: black;
+  color: rgb(177, 170, 170);
   font-weight: 800;
   margin-left: 10%;
   
