@@ -84,7 +84,7 @@ function App() {
           <div className="content">
             <p className='hi-am'>Hi I am..</p>
             <h1  data-aos="fade-up" className='name'>MOHAMMED <span>SHAMIL</span></h1>
-            <div className="typewriter"><p className='typing'>I am Web a Developer</p></div>
+            <div className="typewriter"><p className='typing'>I am Web Developer</p></div>
           </div>
         </div>
         <div className="name-banner-right">
