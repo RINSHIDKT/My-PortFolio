@@ -359,8 +359,21 @@ body{
 
 .service-heading{
   font-weight: 900;
-  text-align: center;
+  /* text-align: center; */
   margin-top: 20px;
+  margin-left: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+.service-card-main{
+  display: flex;
+  width: 80%;
+}
+.service-card{
+  background-color: red;
+  height: 300px;
+  width: 400px;
 }
 
 /* /////////////////////SERVICES-SECTION-END////////////// */

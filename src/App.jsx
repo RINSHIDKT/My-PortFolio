@@ -102,7 +102,12 @@ function App() {
   </div>
    {/* //////////////SERVICES/////////////// */}
   <div className="services-main">
-        <h1 className='service-heading'>SERVICES</h1>
+        <h1 className='service-heading'>Services.</h1>
+        <div className="service-card-main">
+            <div className="service-card">
+              
+            </div>
+        </div>
       </div>
 
   
