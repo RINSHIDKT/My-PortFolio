@@ -85,7 +85,7 @@ function App() {
             <p className='hi-am'>Hi I am..</p>
             <h1  data-aos="fade-up" className='name'>MOHAMMED <span>SHAMIL</span></h1>
             <div className="typewriter"><p className='typing'>I am Web Developer</p></div>
-            <a href="/images/myw3schoolsimage.jpg" download>
+            <a href="./" download>
   <img src="" alt="W3Schools" width="104" height="142" />
 </a>
           </div>
