@@ -352,3 +352,13 @@ body{
    
   }
 /* //////////////////NAME-BANNER-END//////////////// */
+
+/* /////////////////////SERVICES-SECTION////////////// */
+
+.service-heading{
+  font-weight: 900;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* /////////////////////SERVICES-SECTION-END////////////// */

@@ -55,6 +55,7 @@ function App() {
     <div className='nav-div'> <a href="" className="navlinks">Home</a></div>
     <div className='nav-div'><a href="" className="navlinks">About</a></div>
     <div className='nav-div'> <a href="" className="navlinks">My Work</a></div>
+    <div className='nav-div'> <a href="" className="navlinks">Services</a></div>
     <div className='nav-div'> <a href="" className="navlinks">Contact</a></div>
     </div>
   </div>
@@ -70,6 +71,7 @@ function App() {
           <div className="navlink"><a href="">HOME</a></div>
           <div className="navlink"><a href="">ABOUT</a></div>
           <div className="navlink"><a href="">MY WORKS</a></div>
+          <div className="navlink"><a href="">SERVICES</a></div>
           <div className="navlink"><a href="">CONTACT</a></div>
         </div>
     </div>
@@ -93,8 +95,15 @@ function App() {
         </div>
       </div>
    {/* /////////////NAME-BANNER-END//////////////// */}
-      
+
+     
+
+     
   </div>
+   {/* //////////////SERVICES/////////////// */}
+  <div className="services-main">
+        <h1 className='service-heading'>SERVICES</h1>
+      </div>
 
   
 
