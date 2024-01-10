@@ -54,7 +54,7 @@ function App() {
     <div>
     <div className='nav-div'> <a href="" className="navlinks">Home</a></div>
     <div className='nav-div'><a href="" className="navlinks">About</a></div>
-    <div className='nav-div'> <a href="" className="navlinks">Projects</a></div>
+    <div className='nav-div'> <a href="" className="navlinks">My Work</a></div>
     <div className='nav-div'> <a href="" className="navlinks">Contact</a></div>
     </div>
   </div>
@@ -69,7 +69,7 @@ function App() {
         <div className="navitems">
           <div className="navlink"><a href="">HOME</a></div>
           <div className="navlink"><a href="">ABOUT</a></div>
-          <div className="navlink"><a href="">PROJECTS</a></div>
+          <div className="navlink"><a href="">MY WORKS</a></div>
           <div className="navlink"><a href="">CONTACT</a></div>
         </div>
     </div>
@@ -85,6 +85,9 @@ function App() {
             <p className='hi-am'>Hi I am..</p>
             <h1  data-aos="fade-up" className='name'>MOHAMMED <span>SHAMIL</span></h1>
             <div className="typewriter"><p className='typing'>I am Web Developer</p></div>
+            <a href="/images/myw3schoolsimage.jpg" download>
+  <img src="" alt="W3Schools" width="104" height="142" />
+</a>
           </div>
         </div>
         <div className="name-banner-right">
