@@ -91,7 +91,7 @@ function App() {
           </div>
         </div>
         <div className="name-banner-right">
-          <div className="photo"><img src="../public/IMG_6986-removebg.png" alt="" /></div>
+          <div className="photo"><img src="/IMG_6986-removebg.png" alt="" /></div>
         </div>
       </div>
    {/* /////////////NAME-BANNER-END//////////////// */}
@@ -102,10 +102,11 @@ function App() {
   </div>
    {/* //////////////SERVICES/////////////// */}
   <div className="services-main">
-        <h1 className='service-heading'>Services.</h1>
+        {/* <h1 className='service-heading'>Services.</h1> */}
         <div className="service-card-main">
             <div className="service-card">
-              
+            <div className="service-card-left"></div>
+            <div className="service-card-right"></div>
             </div>
         </div>
       </div>
