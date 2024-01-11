@@ -83,7 +83,7 @@ const Indro = () => {
           <div className="content">
             <p className='hi-am'>Hi I am..</p>
             <h1  data-aos="fade-up" className='name'>MOHAMMED <span>SHAMIL</span></h1>
-            <div className="typewriter"><p className='typing'>I am Web Developer</p></div>
+            <div className="typewriter"><p className='typing'>I'm Web Developer</p></div>
             {/* <a href="./../public/Screenshot 2024-01-10 145343.png" download>Download CV</a> */}
           </div>
         </div>
