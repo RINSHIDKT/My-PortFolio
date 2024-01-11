@@ -1,6 +1,9 @@
 import { useEffect } from 'react';
 import './App.css'
 import { HiBars3CenterLeft } from "react-icons/hi2";
+import { HiOutlineDesktopComputer } from "react-icons/hi";
+
+
 
 function App() {
   useEffect(() => {
@@ -102,13 +105,25 @@ function App() {
   </div>
    {/* //////////////SERVICES/////////////// */}
   <div className="services-main">
-        {/* <h1 className='service-heading'>Services.</h1> */}
+        <h1 className='service-heading'>My Awesom <span className='srvs-text'>Services.</span></h1>
+       <div className="service_main_carrdss">
+        <div className="service-main-crd-left">
         <div className="service-card-main">
             <div className="service-card">
-            <div className="service-card-left"></div>
-            <div className="service-card-right"></div>
+            <div className="service-card-left">
+            <span><HiOutlineDesktopComputer className='pers_icon' /></span>
+            </div>
+            <div className="service-card-right">
+             <h3> UI/UX Designing</h3>
+            </div>
             </div>
         </div>
+        </div>
+
+        <div className="service-main-crd-right">
+
+        </div>
+       </div>
       </div>
 
   
