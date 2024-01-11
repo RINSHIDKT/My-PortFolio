@@ -1,0 +1,79 @@
+/* /////////////////////SERVICES-SECTION////////////// */
+.servises-main-div{
+    .service_main_carrdss{
+        display: inline;
+      }
+      .service-main-crd-left,.service-main-crd-right{
+        width: 100%;
+      }
+      .service-heading{
+        font-weight: 900;
+        text-align: center;
+        margin-top: 20px;
+        margin-left: 40px;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 40px;
+        letter-spacing: 2px;
+      }
+      .srvs-text{
+        color: #f9977b;
+      }
+      .service-card-main{
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        padding-bottom: 30px;
+      }
+      .service-card{
+        /* background-color: red; */
+        border: 2px solid rgb(221, 221, 221);
+        box-shadow: 0px 1px 10px -3px rgba(0, 0, 0, 0.453);
+        border-radius: 8px;
+        height: 160px;
+        width: 400px;
+        display: flex;
+      }
+      .service-card-left{
+        width: 30%;
+        height: 170px;
+        padding: 39px;
+        /* background-color: yellow; */
+        text-align: center;
+      }
+      .service-card-right{
+        width: 70%;
+        height: 170px;
+        // text-align: center;
+        padding-left: 5%;
+        /* background-color: rgb(0, 255, 55); */
+      }
+      .service-card-right {
+        h3{
+            color: black;
+            font-weight: 900;
+            padding-top: 14%;
+            text-align: left;
+            /* padding-left: 3%; */
+            font-family: 'Ubuntu', sans-serif;
+        }
+        p{
+            text-align: left;
+            font-family: 'Ubuntu', sans-serif;
+            font-size: 26px;
+            color: gray;
+        }
+      }
+      .pers_icon{
+        font-size: 70px;
+        text-align: center;
+        background-color: rgb(255, 187, 70);
+        border-radius: 50%;
+        padding: 10px;
+        
+      }
+      
+      /* /////////////////////SERVICES-SECTION-END////////////// */
+      
+}
