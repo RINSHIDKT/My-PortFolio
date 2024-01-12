@@ -7,7 +7,7 @@ const Services = () => {
     <div className='servises-main-div'>
        {/* //////////////SERVICES/////////////// */}
   <div className="services-main">
-        <h1 className='service-heading'>My Awesom <span className='srvs-text'>Services.</span></h1>
+        <h1 className='service-heading'>My Awesome <span className='srvs-text'>Services.</span></h1>
        <div className="service_main_carrdss">
         <div className="service-main-crd-left">
         <div className="service-card-main">
