@@ -1,3 +1,43 @@
 .wrkExperienceMain{
-    
+    background-color: #fff7ed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.wrkExperienceMain{
+    .heading{
+        h1{
+            font-weight: 900;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        span{
+            color: #f9977b;
+        }
+    }
+    .expirience{
+        display: flex;
+    }
+    .expirience{
+        .expirience_left,.expirience_right{
+            width: 50%;
+            
+        }
+        .expirience_left{
+            .contents{
+                background-color: yellow;
+                width: 300px;
+                margin: auto;
+            }
+            h4{
+                // padding-top: 20px;
+                font-weight: 700;
+                // text-align: center;
+            }
+            
+        }
+        .line{
+            height: 140px;
+            border-right: 2px solid rgba(0, 0, 0, 0.361);
+        }
+    }
 }
