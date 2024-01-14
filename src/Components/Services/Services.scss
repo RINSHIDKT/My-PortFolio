@@ -1,17 +1,20 @@
 /* /////////////////////SERVICES-SECTION////////////// */
 .servises-main-div{
     .service_main_carrdss{
-        display: inline;
+        display: flex;
       }
       .service-main-crd-left,.service-main-crd-right{
-        width: 100%;
+        width: 50%;
+      }
+      .service-main-crd-left{
+        padding-left: 17%;
       }
       .service-heading{
         font-weight: 900;
         text-align: center;
         margin-top: 20px;
         // margin-left: 40px;
-        font-family: 'Ubuntu', sans-serif;
+        // font-family: 'Ubuntu', sans-serif;
         font-size: 40px;
         letter-spacing: 2px;
       }
@@ -20,7 +23,8 @@
       }
       .service-card-main{
         padding-top: 30px;
-        display: flex;
+        // display: flex;
+        gap: 15px;
         // background-color: red;
         justify-content: center;
         width: 100%;
@@ -30,11 +34,16 @@
       .service-card{
         /* background-color: red; */
         border: 1px solid rgb(221, 221, 221);
+        margin-bottom: 14px;
         // box-shadow: 0px 1px 10px -3px rgba(0, 0, 0, 0.453);
         border-radius: 8px;
         height: 160px;
         width: 400px;
         display: flex;
+        transition: .5s;
+      }
+      .service-card:hover{
+         box-shadow: 0px 11px 10px -3px rgba(126, 126, 126, 0.453);
       }
       .service-card-left{
         width: 30%;
@@ -74,6 +83,21 @@
         border-radius: 50%;
         padding: 10px;
         
+      }
+      .service-main-crd-right{
+        h1{
+          font-weight: 900;
+          padding-top: 3%;
+          font-size: 40px;
+          letter-spacing: 2px;
+        }
+        span{
+         color: #f9977b;
+        }
+        p{
+          width: 500px;
+          font-size: 25px;
+        }
       }
       
       /* /////////////////////SERVICES-SECTION-END////////////// */
