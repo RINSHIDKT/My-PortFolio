@@ -1,9 +1,10 @@
 import React from 'react'
+import './WorkExpence.scss'
 
 const Workexprnce = () => {
   return (
-    <div>
-      drgfdsfgsg
+    <div className='wrkExperienceMain'>
+     
     </div>
   )
 }
