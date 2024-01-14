@@ -24,12 +24,12 @@
         }
         .expirience_left{
             .contents{
-                background-color: yellow;
+                // background-color: yellow;
                 width: 300px;
                 margin: auto;
             }
             h4{
-                // padding-top: 20px;
+                padding-top: 20px;
                 font-weight: 700;
                 // text-align: center;
             }
@@ -37,7 +37,18 @@
         }
         .line{
             height: 140px;
-            border-right: 2px solid rgba(0, 0, 0, 0.361);
+            border-right: 2px solid rgba(0, 0, 0, 0.21);
+        }
+        .expirience_right{
+            .contents{
+                margin: auto;
+                width: 400px;
+                // background-color: #f9977b;
+            }
+            h4{
+                padding-top: 20px;
+                font-weight: 700;
+            }
         }
     }
 }
