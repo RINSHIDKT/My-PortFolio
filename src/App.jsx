@@ -1,6 +1,7 @@
 import './App.css'
 import Indro from './Components/Indro/Indro';
 import Services from './Components/Services/Services';
+import Workexprnce from './Components/WorkExprnce/Workexprnce';
 
 
 
@@ -11,6 +12,7 @@ function App() {
     <>
   <Indro/>
   <Services/>
+  <Workexprnce/>
     </>
   )
 }
