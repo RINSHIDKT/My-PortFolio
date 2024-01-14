@@ -99,6 +99,53 @@
           font-size: 25px;
         }
       }
+
+      @media(min-width:300px) and (max-width:575.98px){
+        .service_main_carrdss{
+          display: inline;
+          justify-content: center !important;
+        }
+        .service-main-crd-left{
+          padding-left: 5%;
+        }
+        .service-card{
+          margin-bottom: 14px !important;
+          margin: auto;
+          width: 300px;
+          height: 130px;
+        }
+        .service-card-right{
+          padding-left: 10px;
+        }
+        .service-card-left{
+          padding-left: 5%;
+          padding-top: 12%;
+        }
+        .service-card-right {
+          h3{
+              font-size: 20px;
+          }
+        }
+        .service-main-crd-right{
+          padding-left: 10px;
+        }
+        .service-main-crd-right{
+          h1{
+            font-size: 30px;
+            letter-spacing: 2px;
+            // background-color: red;
+            width: 300px;
+          }
+          span{
+           color: #f9977b;
+          }
+          p{
+            width: 300px;
+            font-size: 16px;
+          }
+        }
+      
+      }
       
       /* /////////////////////SERVICES-SECTION-END////////////// */
       
