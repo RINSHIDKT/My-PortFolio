@@ -1,11 +1,12 @@
 import React from 'react'
 import './WorkExpence.scss'
+// import motion from 'framer-motion'
 
 const Workexprnce = () => {
   return (
     <div className='wrkExperienceMain'>
     <div className="heading">
-    <h1>My Work <span>Expirience</span></h1>
+    <h1>My Work <span>Experience</span></h1>
     </div>
     <div className="expirience">
         <div className="expirience_left">
