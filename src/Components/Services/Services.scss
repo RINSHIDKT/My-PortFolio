@@ -1,4 +1,14 @@
 /* /////////////////////SERVICES-SECTION////////////// */
+.servises-main-div {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: opacity 0.8s ease, transform 0.8s ease;
+
+  &.fade-up {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 .servises-main-div{
     .service_main_carrdss{
       padding-top: 40px;
@@ -98,6 +108,16 @@
         p{
           width: 500px;
           font-size: 25px;
+        }
+        &.fade-up {
+          opacity: 0;
+          transform: translateY(50px);
+          transition: opacity 0.8s ease, transform 0.8s ease;
+      
+          &.visible {
+            opacity: 1;
+            transform: translateY(0);
+          }
         }
       }
 

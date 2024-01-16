@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Services.scss'
 import { HiOutlineDesktopComputer } from "react-icons/hi";
+import { Link } from 'react-scroll';
 
 const Services = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    const triggerPoint = window.innerHeight * 0.7; // Adjust this value as needed
+
+    if (scrollY > triggerPoint) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <div className='servises-main-div'>
+    <div className={`servises-main-div ${isVisible ? 'fade-up' : ''}`}>
        {/* //////////////SERVICES/////////////// */}
   <div className="services-main">
         {/* <h1 className='service-heading'>My Awesome <span className='srvs-text'>Services.</span></h1> */}

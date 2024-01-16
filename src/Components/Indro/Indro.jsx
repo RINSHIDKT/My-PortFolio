@@ -51,7 +51,7 @@ const Indro = () => {
   </div>
   <div className="offcanvas-body">
     <div>
-    <div className='nav-div'> <a href="" className="navlinks">Home</a></div>
+    <div className='nav-div'> <a href="#" className="navlinks">Home</a></div>
     <div className='nav-div'><a href="" className="navlinks">About</a></div>
     <div className='nav-div'> <a href="" className="navlinks">My Work</a></div>
     <div className='nav-div'> <a href="" className="navlinks">Services</a></div>
