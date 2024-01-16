@@ -1,6 +1,15 @@
 .projects-main-div{
     background-color: #fff7ed;
     padding-bottom: 50px;
+
+    // opacity: 0;
+    // transform: translateY(50px);
+    // transition: opacity 0.8s ease, transform 0.8s ease;
+  
+    // &.fade-up {
+    //   opacity: 1;
+    //   transform: translateY(0);
+    // }
 }
 .projects-main-div{
     .heading{
@@ -25,8 +34,6 @@
         .project-items{
             width: 25%;
             height: auto;
-           
-            // background-color: red;
            
         }
         .project-items img{

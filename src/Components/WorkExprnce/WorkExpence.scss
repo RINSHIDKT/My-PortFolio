@@ -1,7 +1,15 @@
 .wrkExperienceMain{
-  
     padding-top: 50px;
     padding-bottom: 50px;
+
+    opacity: 0;
+    transform: translateY(220px);
+    transition: opacity 1.8s ease, transform 1.8s ease;
+  
+    &.fade-up {
+      opacity: 1;
+      transform: translateY(0);
+    }
 }
 .wrkExperienceMain{
     .heading{

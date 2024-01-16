@@ -1,10 +1,30 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './WorkExpence.scss'
+import { Link } from 'react-scroll';
 // import motion from 'framer-motion'
 
 const Workexprnce = () => {
+  const [isVisible, setIsVisible] = useState(false);
+
+  const handleScroll = () => {
+    const scrollY = window.scrollY;
+    const triggerPoint = window.innerHeight * 0.7; // Adjust this value as needed
+
+    if (scrollY > triggerPoint) {
+      setIsVisible(true);
+    } else {
+      setIsVisible(false);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
   return (
-    <div className='wrkExperienceMain'>
+    <div  className={`wrkExperienceMain ${isVisible ? 'fade-up' : ''}`}>
     <div className="heading">
     <h1>My Work <span>Experience</span></h1>
     </div>
