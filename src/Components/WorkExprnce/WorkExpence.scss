@@ -9,6 +9,7 @@
             font-weight: 900;
             text-align: center;
             padding-bottom: 20px;
+            font-size: 40px;
         }
         span{
             color: #f9977b;
@@ -20,17 +21,19 @@
     .expirience{
         .expirience_left,.expirience_right{
             width: 50%;
+            // background-color: red;
             
         }
         .expirience_left{
-            .contents{
-                // background-color: yellow;
-                width: 300px;
+            .Exprnce_left_contents{
+                // background-color: yellow !important;
+                width: 360px;
                 margin: auto;
             }
             h4{
                 padding-top: 20px;
                 font-weight: 700;
+                font-size: 25px;
                 // text-align: center;
             }
             
@@ -40,7 +43,7 @@
             border-right: 2px solid rgba(0, 0, 0, 0.21);
         }
         .expirience_right{
-            .contents{
+            .expirience_contents{
                 margin: auto;
                 width: 400px;
                 // background-color: #f9977b;
@@ -48,22 +51,40 @@
             h4{
                 padding-top: 20px;
                 font-weight: 700;
+                font-size: 25px;
             }
         }
     }
 
     @media(min-width:300px) and (max-width:575.98px){
-        .contents{
+        .expirience_contents,.Exprnce_left_contents{
             // background-color: yellow;
             width: 150px !important;
+        }
+        .heading{
+            h1{
+                font-weight: 900;
+                text-align: center;
+                padding-bottom: 20px;
+                font-size: 30px;
+            } 
         }
         .line{
             height: 140px !important;
         }
-        .contents{
+        .expirience_contents{
             h4{
                 padding-top: 0 !important;
-                font-size: 16px
+                font-size: 16px !important;
+            }
+            p{
+                font-size: 12px;
+            }
+        }
+        .Exprnce_left_contents{
+            h4{
+                padding-top: 0 !important;
+                font-size: 16px !important;
             }
             p{
                 font-size: 12px;

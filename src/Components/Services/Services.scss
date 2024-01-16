@@ -107,7 +107,11 @@
           justify-content: center !important;
         }
         .service-main-crd-left{
-          padding-left: 5%;
+          padding-left: 0;
+          // background-color: red
+        }
+        .service-main-crd-left,.service-main-crd-right{
+          width: 100%;
         }
         .service-card{
           margin-bottom: 14px !important;
@@ -128,14 +132,18 @@
           }
         }
         .service-main-crd-right{
-          padding-left: 10px;
+          padding: 0px 10px 0px 10px;
         }
         .service-main-crd-right{
           h1{
             font-size: 30px;
             letter-spacing: 2px;
             // background-color: red;
-            width: 300px;
+            width: 100%;
+          }
+          .wht_do_i_help{
+            text-align: center;
+            margin-bottom: 20px;
           }
           span{
            color: #f9977b;
@@ -143,6 +151,9 @@
           p{
             width: 300px;
             font-size: 16px;
+            text-align: justify;
+            // background-color: red;
+            width: 100%;
           }
         }
       

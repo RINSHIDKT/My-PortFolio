@@ -34,7 +34,7 @@ const Services = () => {
         </div>
 
         <div className="service-main-crd-right">
-            <h1>What do I <span>help?</span></h1>
+            <h1 className='wht_do_i_help'>What do I <span>help?</span></h1>
             <p>I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.</p>
             <div className="project_completed">
               <h1>9+</h1>
