@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-  <Indro/ >
+  <Indro/>
   <Services/>
   <Workexprnce/>
   <Projects/>
