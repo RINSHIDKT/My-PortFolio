@@ -23,7 +23,7 @@ const Projects = () => {
     };
   }, []);
   return (
-    <div className='projects-main-div'>
+    <div className='projects-main-div' id='projects'>
        <div className={`scroll ${isVisible ? 'fade-up' : ''}`}>
        <div className="heading">
             <h1>My Latest <span>Projects</span></h1>

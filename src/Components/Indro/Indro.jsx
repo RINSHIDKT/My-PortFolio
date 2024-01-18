@@ -3,6 +3,7 @@ import { HiBars3CenterLeft } from "react-icons/hi2";
 import './Indro.scss'
 
 const Indro = () => {
+ 
     useEffect(() => {
         const cursor = document.querySelector('.cursor');
         const mouse = {
@@ -52,7 +53,7 @@ const Indro = () => {
   <div className="offcanvas-body">
     <div>
     <div className='nav-div'> <a href="#" className="navlinks">Home</a></div>
-    <div className='nav-div'><a href="" className="navlinks">About</a></div>
+    <div className='nav-div'> <a href="" className="navlinks">About</a></div>
     <div className='nav-div'> <a href="" className="navlinks">My Work</a></div>
     <div className='nav-div'> <a href="" className="navlinks">Services</a></div>
     <div className='nav-div'> <a href="" className="navlinks">Contact</a></div>
