@@ -76,22 +76,37 @@
         .project-items_one,.project-items_two,.project-items_three{
             width: 25%;
             height: auto;
+            background-color: red;
+            overflow: hidden;
+            border-radius: 10px;
            
         }
         .project-items_one img{
             width: 100%;
             height: 180px;
             border-radius: 10px;
+            transition: 1s;
         }
         .project-items_two img{
             width: 100%;
             height: 180px;
             border-radius: 10px;
+            transition: 1s;
         }
         .project-items_three img{
             width: 100%;
             height: 180px;
             border-radius: 10px;
+            transition: 1s;
+        }
+        .project-items_one img:hover{
+            transform: scale(1.3);
+        }
+        .project-items_two img:hover{
+            transform: scale(1.3);
+        }
+        .project-items_three img:hover{
+            transform: scale(1.3);
         }
     }
 

@@ -38,7 +38,7 @@ const Workexprnce = () => {
         <div className="line"></div>
         <div className="expirience_right">
             <div className="expirience_contents">
-            <h4>MERN Stack Developer</h4>
+            <h4>MERN Stack Developer (Intern)</h4>
             <p>I have successfully completed a 6-month internship with the MERN stack in Synnefo Solutions Pvt.Ltd.</p>
             </div>
         </div>
