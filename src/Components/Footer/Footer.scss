@@ -125,7 +125,11 @@
             background-color: #f9977b;
             padding: 5px;
             font-size: 30px;
+            transition: .2s;
            }
+            .socialIcons:hover{
+            background-color: white;
+        }
         }
     }
 }
