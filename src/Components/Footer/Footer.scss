@@ -61,7 +61,12 @@
             background-color: #f9977b;
             padding: 5px;
             font-size: 30px;
+            transition: .3s;
            }
+           .socialIcons:hover{
+            background-color: white !important;
+           
+        }
         }
     }
 
@@ -119,6 +124,7 @@
             padding-left: 0% !important;
         }
         .social-icons{
+          
            .socialIcons{
             color: #19242C;
             margin-right: 10px;
@@ -127,9 +133,7 @@
             font-size: 30px;
             transition: .2s;
            }
-            .socialIcons:hover{
-            background-color: white;
-        }
+           
         }
     }
 }
