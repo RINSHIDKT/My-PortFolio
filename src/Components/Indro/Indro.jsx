@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react'
 import { HiBars3CenterLeft } from "react-icons/hi2";
 import './Indro.scss'
+// import { Link } from 'react-router-dom';
 
 const Indro = () => {
  
@@ -54,7 +55,7 @@ const Indro = () => {
     <div>
     <div className='nav-div'> <a href="#" className="navlinks">Home</a></div>
     <div className='nav-div'> <a href="" className="navlinks">About</a></div>
-    <div className='nav-div'> <a href="" className="navlinks">My Work</a></div>
+    <div className='nav-div'> <a className="navlinks">My Work</a></div>
     <div className='nav-div'> <a href="" className="navlinks">Services</a></div>
     <div className='nav-div'> <a href="" className="navlinks">Contact</a></div>
     </div>
