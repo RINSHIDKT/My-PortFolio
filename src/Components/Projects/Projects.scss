@@ -1,6 +1,6 @@
 .projects-main-div{
     background-color: #fff7ed;
-    padding-bottom: 50px;
+    padding-bottom: 70px;
 
     // opacity: 0;
     // transform: translateY(150px);
@@ -15,7 +15,7 @@
 .projects-main-div{
     .scroll{
         opacity: 0;
-        transform: translateY(150px);
+        transform: translateY(50px);
         transition: opacity 2.8s ease, transform 2.8s ease;
       
         &.fade-up {
@@ -25,7 +25,7 @@
     }
     .project-items_one{
         opacity: 0;
-        transform: translateY(490px); // Adjust the value based on your preference
+        transform: translateY(450px); // Adjust the value based on your preference
         transition: opacity 2.8s ease, transform 2.8s ease;
       
         &.fade-up {
@@ -35,7 +35,7 @@
     }
     .project-items_two{
         opacity: 0;
-        transform: translateY(490px); // Adjust the value based on your preference
+        transform: translateY(450px); // Adjust the value based on your preference
         transition: opacity 1.8s ease, transform 1.8s ease;
       
         &.fade-up {
@@ -45,7 +45,7 @@
     }
     .project-items_three{
         opacity: 0;
-        transform: translateY(490px); // Adjust the value based on your preference
+        transform: translateY(450px); // Adjust the value based on your preference
         transition: opacity 0.8s ease, transform 0.8s ease;
       
         &.fade-up {
@@ -110,32 +110,32 @@
         }
         .project-items_one{
             opacity: 0;
-            transform: translateX(-490px); // Adjust the value based on your preference
+            transform: translateY(-90px); // Adjust the value based on your preference
             transition: opacity 2.8s ease, transform 2.8s ease;
           
             &.fade-up {
               opacity: 1;
-              transform: translateX(0);
+              transform: translateY(0);
             }
         }
         .project-items_two{
             opacity: 0;
-            transform: translateX(490px); // Adjust the value based on your preference
+            transform: translateY(90px); // Adjust the value based on your preference
             transition: opacity 2.8s ease, transform 2.8s ease;
           
             &.fade-up {
               opacity: 1;
-              transform: translateX(0);
+              transform: translateY(0);
             }
         }
         .project-items_three{
             opacity: 0;
-            transform: translateX(-490px); // Adjust the value based on your preference
+            transform: translateY(-90px); // Adjust the value based on your preference
             transition: opacity 2.8s ease, transform 2.8s ease;
           
             &.fade-up {
               opacity: 1;
-              transform: translateX(0);
+              transform: translateY(0);
             }
         }
         .project-items img{
