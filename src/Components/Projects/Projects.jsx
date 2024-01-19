@@ -29,9 +29,9 @@ const Projects = () => {
             <h1>My Latest <span>Projects</span></h1>
         </div>
         <div className="projects_main">
-            <div className={`project-items_one ${isVisible ? 'fade-up' : ''}`}><img src="./project 1.png" alt="" /></div>
-            <div className={`project-items_two ${isVisible ? 'fade-up' : ''}`}><img src="./project 2.png" alt="" /></div>
-            <div className={`project-items_three ${isVisible ? 'fade-up' : ''}`}><img src="./project 3.png" alt="" /></div>
+            <div className={`project-items_one ${isVisible ? 'fade-up' : ''}`}><a href='https://github.com/shamilbinumer/SportsTrack.git'><img src="./project 1.png" alt="" /></a></div>
+            <div className={`project-items_two ${isVisible ? 'fade-up' : ''}`}><a href='https://github.com/shamilbinumer/CollegeManagement.git'><img src="./project 2.png" alt="" /></a></div>
+            <div className={`project-items_three ${isVisible ? 'fade-up' : ''}`}><a href='https://github.com/shamilbinumer/BookMyShowClone.git'><img src="./project 3.png" alt="" /></a></div>
         </div>
        </div>
     </div>
