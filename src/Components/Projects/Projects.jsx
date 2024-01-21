@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './Projects.scss'
-import { Link } from 'react-scroll';
+// import { Link } from 'react-scroll';
 
 const Projects = () => {
   const [isVisible, setIsVisible] = useState(false);
