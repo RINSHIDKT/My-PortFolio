@@ -84,13 +84,13 @@ const Indro = () => {
         <div className="name-banner-left">
           <div className="content">
             <p className='hi-am'>Hi I am..</p>
-            <h1  data-aos="fade-up" className='name'>MOHAMMED <span>SHAMIL</span></h1>
+            <h1  data-aos="fade-up" className='name'>RINSHID <span>KT</span></h1>
             <div className="typewriter"><p className='typing'>I'm Web Developer</p></div>
             {/* <a href="./../public/Screenshot 2024-01-10 145343.png" download>Download CV</a> */}
           </div>
         </div>
         <div className="name-banner-right">
-          <div className="photo"><img src="/IMG_6986-removebg.png" alt="" /></div>
+          <div className="photo"><img src="/rinshid-profile.jpg" alt="" /></div>
         </div>
       </div>
    {/* /////////////NAME-BANNER-END//////////////// */}

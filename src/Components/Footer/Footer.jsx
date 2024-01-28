@@ -21,9 +21,9 @@ contribute to the growth and success of the company. Eager to learn and grow as 
         </div>
         <div className="foot_right">
             <h3>Contact</h3>
-            <p><FaPhone className='foot-icon' />+91 9562890504</p>
-            <p><IoIosMail className='foot-icon-mail' />shamilmohd418@gmail.com</p>
-            <p><FaLocationDot className='location-icon' />Perinthalmanna,Malappuaram,Kerala 679326</p>
+            <p><FaPhone className='foot-icon' />+91 9946090191</p>
+            <p><IoIosMail className='foot-icon-mail' />rinshidkt6@gmail.com</p>
+            <p><FaLocationDot className='location-icon' />Perinthalmanna,Malappuaram,Kerala 679325</p>
             <div className="social-icons">
                 <a href="https://wa.me/9562890504"><SiWhatsapp className='socialIcons' /></a>
                 <a href="https://www.facebook.com/shamilbin.umer.5?mibextid=LQQJ4d"><RiFacebookFill className='socialIcons' /></a>
